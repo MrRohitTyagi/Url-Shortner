@@ -57,7 +57,7 @@ function copy(){
 }
 
 navigator.clipboard.writeText(text.innerHTML)
-document.getElementById('copybtn').innerText = "Copied"
+document.getElementById('copybtn').innerText = "Copied !"
 document.getElementById('copybtn').style.border = "2px solid red"
   setTimeout(() => {
       document.getElementById('copybtn').innerText = "Copy"
